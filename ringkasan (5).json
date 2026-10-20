@@ -1,0 +1,22 @@
+{
+  "jumlah_aset": 250,
+  "radius_layanan_km": 3.0,
+  "cakupan_sebelum_persen": 32.4,
+  "cakupan_sesudah_persen": 46.0,
+  "aset_prioritas_kondisi_buruk_dan_jauh": 24,
+  "usulan_depot_baru": {
+    "lat": -3.7937,
+    "lon": 102.29034
+  },
+  "beban_aset_per_depot_sesudah": {
+    "Depot Baru (usulan)": 69,
+    "Depot Selatan": 64,
+    "Depot Utara": 48,
+    "Depot Timur": 38,
+    "Depot Barat": 31
+  },
+  "jarak_rata2_km": {
+    "sebelum": 3.44,
+    "sesudah": 3.02
+  }
+}

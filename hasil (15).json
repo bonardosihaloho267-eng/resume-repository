@@ -1,0 +1,46 @@
+{
+  "jumlah_alert": 3000,
+  "akurasi_uji": 0.943,
+  "macro_f1_uji": 0.943,
+  "f1_per_kelas": {
+    "Pertanian skala kecil": 0.934,
+    "Perkebunan": 0.919,
+    "Penebangan": 0.973,
+    "Pertambangan": 0.896,
+    "Kebakaran": 0.99
+  },
+  "fitur_terpenting": {
+    "nbr_drop": 0.242,
+    "ndvi_after": 0.2,
+    "area_ha": 0.158,
+    "elongation": 0.139,
+    "texture": 0.083
+  },
+  "ketahanan_awan_macroF1": {
+    "persen_awan": [
+      0,
+      10,
+      20,
+      30,
+      50,
+      70
+    ],
+    "model_biasa": [
+      0.943,
+      0.916,
+      0.863,
+      0.82,
+      0.76,
+      0.635
+    ],
+    "model_augmentasi": [
+      0.945,
+      0.92,
+      0.897,
+      0.871,
+      0.814,
+      0.755
+    ]
+  },
+  "catatan": "Seluruh angka berasal dari DATA SIMULASI, bukan dari citra satelit nyata."
+}

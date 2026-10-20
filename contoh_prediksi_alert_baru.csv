@@ -1,0 +1,13 @@
+ndvi_before,ndvi_after,ndvi_drop,nbr_drop,area_ha,elongation,dist_road_km,dist_river_km,texture,penyebab_prediksi,keyakinan,perlu_verifikasi_lapangan
+0.75,0.14,0.62,0.06,13.49,2.04,0.78,1.18,0.13,Pertambangan,1.0,False
+0.81,0.65,0.17,0.17,7.93,2.44,0.64,1.95,0.32,Penebangan,0.96,False
+0.81,0.53,0.28,0.06,9.55,4.19,2.16,2.66,0.18,Penebangan,1.0,False
+0.9,0.43,0.47,0.05,7.56,3.96,0.57,3.79,0.24,Penebangan,0.98,False
+0.79,0.09,0.7,0.04,37.06,1.49,2.32,4.73,0.09,Perkebunan,0.78,False
+0.79,0.12,0.67,0.15,4.56,1.79,0.0,1.75,0.05,Pertambangan,0.97,False
+0.79,0.63,0.15,0.14,18.39,2.45,0.21,3.33,0.03,Penebangan,0.88,False
+0.77,0.36,0.42,0.33,16.0,1.0,3.06,2.03,0.33,Kebakaran,1.0,False
+0.83,0.17,0.66,0.09,1.12,1.87,4.05,0.0,0.13,Pertanian skala kecil,0.58,True
+0.84,0.57,0.28,0.68,2.18,1.2,2.29,2.29,0.06,Kebakaran,0.82,False
+0.8,0.41,0.39,0.08,1.1,1.0,0.0,2.23,0.04,Pertanian skala kecil,0.95,False
+0.89,0.21,0.68,0.06,33.88,1.67,2.5,2.66,0.11,Perkebunan,0.74,False

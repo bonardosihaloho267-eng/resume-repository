@@ -1,0 +1,31 @@
+{
+  "HCI_SUS": {
+    "antarmuka_lama": {
+      "rata2_SUS": 55.6,
+      "peringkat": "D (di bawah rata-rata)"
+    },
+    "antarmuka_baru": {
+      "rata2_SUS": 75.8,
+      "peringkat": "B (baik)"
+    },
+    "uji_t_welch": {
+      "t": 12.7,
+      "p": 2.73e-18,
+      "cohens_d": 3.28
+    },
+    "kesimpulan": "Perbedaan bermakna (p<0.05)"
+  },
+  "kenaikan_tiket_Jan_Jun_persen": 3.3,
+  "heuristik_nielsen_untuk_evaluasi": [
+    "Visibility of system status - pengguna selalu tahu apa yang sedang terjadi",
+    "Match with real world - bahasa dan istilah akrab bagi pengguna",
+    "User control & freedom - ada undo / batal",
+    "Consistency & standards - elemen serupa berperilaku serupa",
+    "Error prevention - cegah kesalahan sebelum terjadi",
+    "Recognition over recall - jangan paksa pengguna mengingat",
+    "Flexibility & efficiency - jalan pintas untuk pengguna mahir",
+    "Aesthetic & minimalist design - hanya informasi yang relevan",
+    "Help users recover from errors - pesan error jelas dan solutif",
+    "Help & documentation - bantuan mudah dicari"
+  ]
+}

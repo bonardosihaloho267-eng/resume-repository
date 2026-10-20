@@ -1,0 +1,40 @@
+{
+  "ukuran_data": {
+    "total": 178,
+    "latih": 133,
+    "uji": 45,
+    "jumlah_fitur": 13
+  },
+  "cross_validation_data_latih": {
+    "Logistic Regression": {
+      "cv_mean": 0.977,
+      "cv_std": 0.018
+    },
+    "KNN (k=5)": {
+      "cv_mean": 0.955,
+      "cv_std": 0.043
+    },
+    "Decision Tree": {
+      "cv_mean": 0.903,
+      "cv_std": 0.055
+    },
+    "Random Forest": {
+      "cv_mean": 0.985,
+      "cv_std": 0.03
+    }
+  },
+  "model_terpilih": "Random Forest",
+  "akurasi_data_uji": 1.0,
+  "laporan_klasifikasi_f1": {
+    "class_0": 1.0,
+    "class_1": 1.0,
+    "class_2": 1.0
+  },
+  "decision_tree_overfitting": {
+    "akurasi_latih_depth12": 1.0,
+    "akurasi_validasi_depth12": 0.903,
+    "validasi_terbaik": 0.91,
+    "depth_terbaik": 3
+  },
+  "kmeans_ARI": 0.897
+}

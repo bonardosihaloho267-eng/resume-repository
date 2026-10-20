@@ -1,0 +1,28 @@
+{
+  "core_terdeteksi": 1,
+  "jumlah_skenario": 12000000,
+  "hasil": [
+    {
+      "workers": 1,
+      "peluang_banjir": 0.01201,
+      "waktu_detik": 7.264,
+      "speedup": 1.0,
+      "efisiensi": 1.0
+    },
+    {
+      "workers": 2,
+      "peluang_banjir": 0.01197,
+      "waktu_detik": 7.409,
+      "speedup": 0.98,
+      "efisiensi": 0.49
+    },
+    {
+      "workers": 4,
+      "peluang_banjir": 0.01199,
+      "waktu_detik": 7.667,
+      "speedup": 0.95,
+      "efisiensi": 0.24
+    }
+  ],
+  "catatan": "Speedup hanya terlihat bila mesin memiliki >1 core. Di cluster HPC, jalankan lewat job.slurm."
+}

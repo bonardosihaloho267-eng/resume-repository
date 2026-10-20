@@ -1,0 +1,53 @@
+{
+  "cleaning": {
+    "baris_awal": 2920,
+    "setelah_hapus_duplikat": 2880,
+    "nilai_kosong_per_kolom": {
+      "traffic_index": 86,
+      "temp_c": 86,
+      "humidity_pct": 86,
+      "wind_ms": 86,
+      "pm25": 85
+    },
+    "pencilan_pm25_dibuang": 25,
+    "baris_akhir": 2880
+  },
+  "jam_PM25_tertinggi": 18,
+  "korelasi_dengan_pm25": {
+    "wind_ms": -0.404,
+    "humidity_pct": -0.305,
+    "temp_c": 0.405,
+    "traffic_index": 0.806
+  },
+  "performa_model": {
+    "Linear Regression": {
+      "MAE": 2.541,
+      "R2": 0.862
+    },
+    "Random Forest": {
+      "MAE": 2.714,
+      "R2": 0.844
+    }
+  },
+  "pentingnya_fitur_RF": {
+    "traffic_index": 0.712,
+    "wind_ms": 0.208,
+    "temp_c": 0.045,
+    "humidity_pct": 0.024,
+    "hour": 0.011
+  },
+  "contoh_rekomendasi": [
+    {
+      "prediksi_pm25": 36.4,
+      "tindakan": "Sedang - kelompok sensitif kurangi aktivitas luar."
+    },
+    {
+      "prediksi_pm25": 37.3,
+      "tindakan": "Sedang - kelompok sensitif kurangi aktivitas luar."
+    },
+    {
+      "prediksi_pm25": 56.1,
+      "tindakan": "Tidak sehat - batasi lalu lintas, sebarkan peringatan publik."
+    }
+  ]
+}
